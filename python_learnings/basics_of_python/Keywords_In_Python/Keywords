@@ -1,0 +1,25 @@
+False      await      else       import     pass
+None       break      except     in         raise
+True       class      finally    is         return
+and        continue   for        lambda     try
+as         def        from       nonlocal   while
+assert     del        global     not        with
+async      elif       if         or         yield
+
+1. Boolean & Null Key
+-->True, False, None
+2. Control Flow Keywords:
+-->if, else, elif, for, while, break, continue, pass
+3. Function & Class Definition:
+-->def, return, yield, lambda, class
+4. Exception Handling:
+-->try, except, finally, raise, assert
+5. Variable Scope / Context:
+-->global, nonlocal
+6. Importing Modules:
+import, from, as
+7. Logical & Membership Operators:
+-->and, or, not, in, is
+
+8. Async Programming:
+-->async, await
