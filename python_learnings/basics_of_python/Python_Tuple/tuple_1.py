@@ -1,0 +1,45 @@
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple)
+
+# All Duplicates
+# thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+# print(thistuple)
+
+# Tuple Length
+# thistuple = ("apple", "banana", "cherry")
+# print(len(thistuple))
+
+
+# Create Tuple With One Item
+# thistuple = ("apple",)
+# print(type(thistuple))
+#
+# #NOT a tuple
+# thistuple = ("apple")
+# print(type(thistuple))
+
+# Tuple Items - Data Types
+# tuple1 = ("apple", "banana", "cherry")
+# print(tuple1)
+# tuple2 = (1, 5, 7, 9, 3)
+# print(tuple2)
+# tuple3 = (True, False, False)
+# print(tuple3)
+#
+# # A tuple can contain different data types:
+# # A tuple with strings, integers and boolean values:
+#
+# tuple1 = ("abc", 34, True, 40, "male")
+# print(tuple1)
+
+# type()
+# From Python's perspective, tuples are defined as objects with the data type 'tuple':
+# mytuple = ("apple", "banana", "cherry")
+# print(type(mytuple))
+
+# The tuple() Constructor
+# It is also possible to use the tuple() constructor to make a tuple.
+# Using the tuple() method to make a tuple:
+
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple)
