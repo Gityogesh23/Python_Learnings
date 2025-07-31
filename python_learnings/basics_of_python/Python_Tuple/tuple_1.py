@@ -43,3 +43,9 @@
 
 thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
 print(thistuple)
+
+## Access Tuples in Python -->in python negave indexing also works
+# consider above example
+print(thistuple[-2]);
+print(thistuple[0]);
+print(thistuple[-1]);
