@@ -3,6 +3,8 @@
 #
 # A tuple is a collection which is ordered and unchangeable.
 
+
+# Tuples are defined by enclosing comma-separated elements within parentheses ().
 # thistuple = ("apple", "banana", "cherry")
 # print(thistuple)
 

@@ -1,8 +1,8 @@
 Tuple
+Tuples are defined by enclosing comma-separated elements within parentheses ().
 Tuples are used to store multiple items in a single variable.
 
-Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary,
-all with different qualities and usage.
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary,-->LSDT to remember with different qualities and usage.
 
 A tuple is a collection which is ordered and unchangeable.
 
@@ -32,3 +32,9 @@ type()
 From Python's perspective, tuples are defined as objects with the data type 'tuple':
 
 <class 'tuple'>
+
+
+Change Tuple Values
+Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
+
+But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
