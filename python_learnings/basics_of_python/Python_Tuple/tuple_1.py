@@ -8,6 +8,12 @@
 # thistuple = ("apple", "banana", "cherry")
 # print(thistuple)
 
+mytuple=([1,2,3,4,4,5,6])  # gives (1,2,3,4,4,5,6)
+print(mytuple);
+
+mytuple=tuple("YOGESH") #here tuple() is constructor -->tuple(iterable)
+print(mytuple);
+
 # All Duplicates
 # thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 # print(thistuple)
