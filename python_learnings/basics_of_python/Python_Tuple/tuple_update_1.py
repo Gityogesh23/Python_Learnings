@@ -28,3 +28,5 @@ thistuple += y
 
 print(thistuple)
 
+# Note: When creating a tuple with only one item, remember to include a comma after the item, otherwise it will not be identified as a tuple.
+
