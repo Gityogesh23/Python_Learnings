@@ -5,34 +5,34 @@ import os
 
 def get_os_info():
     print("===== Operating System Info =====")
-    print("OS:", platform.system())
-    print("Version:", platform.version())
-    print("Release:", platform.release())
+    print("OS:", platform.system())  #Windows
+    print("Version:", platform.version()) #vesrion-->10.0...
+    print("Release:", platform.release())  #11
     print()
 
 def get_ram_info():
     print("===== RAM Information =====")
-    ram = psutil.virtual_memory()
-    print(f"Total RAM: {ram.total / (1024**3):.2f} GB")
-    print(f"Available RAM: {ram.available / (1024**3):.2f} GB")
-    print(f"Used RAM: {ram.used / (1024**3):.2f} GB")
+    ram = psutil.virtual_memory()  
+    print(f"Total RAM: {ram.total / (1024**3):.2f} GB")          #15.40 ~total =16 GB
+    print(f"Available RAM: {ram.available / (1024**3):.2f} GB")  #5.47 GB
+    print(f"Used RAM: {ram.used / (1024**3):.2f} GB")            #9.94 GB
     print(f"RAM Usage: {ram.percent}%")
     print()
 
 def get_cpu_info():
     print("===== CPU Information =====")
-    print("CPU Usage:", psutil.cpu_percent(interval=1), "%")
-    print("CPU Cores:", psutil.cpu_count(logical=True))
-    print("Physical Cores:", psutil.cpu_count(logical=False))
+    print("CPU Usage:", psutil.cpu_percent(interval=1), "%")  #3.9 %
+    print("CPU Cores:", psutil.cpu_count(logical=True))       #12
+    print("Physical Cores:", psutil.cpu_count(logical=False)) # 6
     print()
 
 def get_disk_info():
     print("===== Disk Information =====")
     disk = psutil.disk_usage('/')
-    print(f"Total Disk: {disk.total / (1024**3):.2f} GB")
-    print(f"Used Disk: {disk.used / (1024**3):.2f} GB")
-    print(f"Free Disk: {disk.free / (1024**3):.2f} GB")
-    print(f"Disk Usage: {disk.percent}%")
+    print(f"Total Disk: {disk.total / (1024**3):.2f} GB")  #475.48 GB
+    print(f"Used Disk: {disk.used / (1024**3):.2f} GB")    #379.53 GB
+    print(f"Free Disk: {disk.free / (1024**3):.2f} GB")    #95.95 GB
+    print(f"Disk Usage: {disk.percent}%")                  #79.8 %
     print()
 
 def get_uptime():
@@ -41,8 +41,8 @@ def get_uptime():
     now = datetime.datetime.now()
     uptime = now - boot_time
 
-    print("Boot Time:", boot_time.strftime("%Y-%m-%d %H:%M:%S"))
-    print("Uptime:", uptime)
+    print("Boot Time:", boot_time.strftime("%Y-%m-%d %H:%M:%S"))  #Boot Time: 2025-11-24 09:31:30
+    print("Uptime:", uptime)   #Uptime: 3 days, 10:22:30.895134
     print()
 
 def main():
