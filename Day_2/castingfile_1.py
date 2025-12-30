@@ -7,6 +7,11 @@ z = int("3") # z will be 3
 print(z)
 #Specify a Variable Type
 
+tuple=("34","45","67","89") 
+#A tuple is a collection which is ordered and unchangeable.
+#A tuple is a collection which is ordered and unchangeable.used to store collection of data.
+#store multiple items in a single variable.Default data type in pyhton-->List,Set and Dictionary
+print(tuple) #
 """
 There may be times when you want to specify a type on to a variable. This can be done 
 with casting. Python is an object-orientated language, and as such it uses classes to 
