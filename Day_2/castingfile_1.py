@@ -7,13 +7,6 @@ z = int("3") # z will be 3
 print(z)
 #Specify a Variable Type
 
-str=str('Yogesh') #yogesh
-print(str)
-
-f=float(3) #3.0
-print(f)
-
-
 """
 There may be times when you want to specify a type on to a variable. This can be done 
 with casting. Python is an object-orientated language, and as such it uses classes to 
