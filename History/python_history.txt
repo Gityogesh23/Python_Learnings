@@ -38,7 +38,7 @@ Python 2.7 (long-term)
 
 🔚 Python 2 was officially discontinued in 2020 → “End of Life”.
 
-# Python 3.x (2008–Present)
+# Python 3.x (2008–Present) :3.10 and 3.12
 
 Python 3 fixed many design problems in Python 2.
 
