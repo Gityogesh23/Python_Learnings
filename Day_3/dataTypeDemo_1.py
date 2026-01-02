@@ -5,40 +5,55 @@ print(type(x)) #<class 'complex'>
 
 #Observe carefully.
 #1)List-->[]
+print("#######Prints List of An Elements :")
 x=["Apple","Mango","Guava","Perry"] #list -->[]
 print(type(x))  #<class 'list'> ---> for list subscript operator is used --->[]
+##################################
 
 #2)tuple--> ()
+print("#######prints tuples :")
 x=("Laptop","Tablet","Mouse") 
 print(type(x))  #<class 'tuple'>
 ##################################
+
 #3)range--> ()
+print("#######prints range from 0 to 10")
 z=range(10)
 print(type(z)) #range(0, 10)
 #convert to list to display the content of x:
-print(list(x)) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(list(z)) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ###################################
+
 #4)Dictionary --->{key:value}
+print("prints Dictionary type of data")
 y={"Name":"Yogesh","Age":31} #key:vlaue pair-->Dictionary:key value pair-->{}
 print(y)
 print(type(y))
 ###################################
+
 #5)string
+print("#######prints String type of data :")
 x="Yogesh"
 print(type(x)) #<class 'str'>
-###################################
+####################################
+
 #6)int
+print("#######prints integer type of data :")
 x=20
 print(type(x)) #<class 'int'>
 ###################################
 
 #7)float
+print("#######prints flaot type of data :")
 x=20.5
 print(type(x))
 ###############################
 
 #6)frozenset
-
+print("#######prints frozen type of data :")
+x=frozenset(("Apple","Mango","Guava","pomegranate"))
+print(x)
+print(type(x))
 ###############################
 #7)bool
 
