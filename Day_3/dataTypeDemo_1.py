@@ -55,24 +55,38 @@ x=frozenset(("Apple","Mango","Guava","pomegranate"))
 print(x)
 print(type(x))
 ###############################
+
 #7)bool
+x= True 
+print(x)
+ 
+ # display type ox x
+print(type(x))
 
 ###############################
 #8)bytes
+x=b"123"
+print(x)
 
+print(type(x))
 ###############################
 #9)bytearray
+x = bytearray(5)
+print(x)
 
+print(type(x))
 ###############################
 #10)memoryview
+x = memoryview(bytes(5))
+print(x)
 
+print(type(x))
 ###############################
 #11)NoneType
+x=None
+print(x)
 
-
-
-
-
+print(type(x))
 #1)int,flaot,complex - Numeric Types
 #2)str -text type
 #3)Sequence Types- list,tuple,range
