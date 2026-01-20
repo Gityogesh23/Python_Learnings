@@ -25,13 +25,7 @@ for emp in employees:
     if emp.lower().startswith("y"):
         print(emp)
 print("Find by Name of Emplyee from Employees List:")
-search_name = input("Enter employee name: ").strip().lower()
 
-matches = [emp for emp in employees if emp.lower() == search_name.lower()]
-if matches:
-    print(f"Found {len(matches)} match(es):")
-    for emp in matches:
-        print(f"  - {emp}")
 '''
 print("List of employees print Using For loop: ")
 for employee in employees:
