@@ -26,9 +26,4 @@ for emp in employees:
         print(emp)
 print("Find by Name of Emplyee from Employees List:")
 
-'''
-print("List of employees print Using For loop: ")
-for employee in employees:
-    print(employee)
 
-'''
